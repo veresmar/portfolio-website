@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FCC project</title>
-    <link rel="stylesheet" href="assets/css/style.css"
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light menu">
+
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" class="navbar-logo-img" alt="logo image" />
@@ -52,13 +60,54 @@
           <button type="button" class="rounded-pill btn-rounded">
             +7 919 87 69 510
             <span>
-              <i class="fas fa-phone-alt"></i>
+              <i>&#128222;</i>
             </span>
           </button>
         </div>
       </div>
     </nav>
+
     <!-- navbar finish -->
+
+    <!-- section INTRO start  -->
+    <section id="home" class="intro">
+      <div class="container">
+        <div class="row align-items-center text-white"></div>
+        <div class="col-md-6 intros">
+          <h1 class="display-2">
+            <span class="display-2--intro">Hey, <br />I'm Veres!</span>
+            <span class="display-2--description lh-lg"
+              >This is my portfolio layout created with Bootstrap and Sass</span
+            >
+          </h1>
+          <button type="button" class="rounded-pill btn-rounded">
+            Get in touch
+            <span>
+              <i>&#10003;</i>
+            </span>
+          </button>
+        </div>
+        <div class="col-md-6 intros text-end">
+          <div class="main-picture-box">
+            <img
+              src="images/main_work.svg"
+              alt="woman programmer"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,0L24,48C48,96,96,192,144,208C192,224,240,160,288,133.3C336,107,384,117,432,133.3C480,149,528,171,576,192C624,213,672,235,720,218.7C768,203,816,149,864,144C912,139,960,181,1008,170.7C1056,160,1104,96,1152,69.3C1200,43,1248,53,1296,74.7C1344,96,1392,128,1416,144L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- section INTRO finish  -->
+
     <script src="/assets/js/bootstrap.bundle.js"></script>
   </body>
 </html>
